@@ -7,6 +7,7 @@ import {MatCardModule} from '@angular/material/card';
 import {MatInputModule} from '@angular/material/input';
 import {MatIconModule} from '@angular/material/icon';
 import {FormsModule} from '@angular/forms';
+import { QRCodeSVGModule } from 'ngx-qrcode-svg';
 
 
 
@@ -21,7 +22,8 @@ import {FormsModule} from '@angular/forms';
     MatCardModule,
     MatInputModule,
     MatIconModule,
-    FormsModule
+    FormsModule,
+    QRCodeSVGModule
   ],
   providers: [],
   bootstrap: [AppComponent]
