@@ -1,11 +1,11 @@
 .mat-card {
   margin: 10% auto;
   background-color: rgb(240, 171, 171);
-  width: 500px;
-  height: 400px;
+  width: 600px;
+  height: 600px;
 }
 
-svg {
+mat-card-content {
   max-width: 500px;
-  height: 200px;
+  max-height: 400px;
 }
