@@ -1,11 +1,12 @@
 .mat-card {
   margin: 10% auto;
-  background-color: rgb(240, 171, 171);
-  width: 600px;
-  height: 600px;
+  background-color: rgba(250, 159, 85, 0.521);
+  width: 300px;
+  height: 300px;
+  border-radius: 12px;
 }
 
 mat-card-content {
-  max-width: 500px;
-  max-height: 400px;
+  max-width: 300px;
+  max-height: 300px;
 }
