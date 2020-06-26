@@ -3,9 +3,9 @@
     <qrcode-svg
     [value]="value"
     ></qrcode-svg>
-    <img src="../assets/placeholder.png" alt="" *ngIf="!value">
+    <img src="../assets/placeholder.png" alt="" *ngIf="!value" style="filter: blur(2px);">
     <br>
-    <mat-form-field class="form-field" appearance="outline" style="width: 100%; ">
+    <mat-form-field class="form-field" appearance="outline" style="width: 100%; color: white;">
       <mat-label>QR input</mat-label>
       <input matInput type="text" [(ngModel)]="value">
     </mat-form-field>
